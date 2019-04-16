@@ -34,6 +34,11 @@ const fareTripler = function(fare) {
   return result
 }
 
+const fareQuintupler = function(fare) {
+  result = fare * 5;
+  return result
+}
+
 const fetchSpecifiedDrivers = function(drivers, funct) {
   new_drivers = funct(drivers);
   return new_drivers
