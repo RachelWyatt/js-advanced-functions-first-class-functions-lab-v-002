@@ -18,10 +18,10 @@ const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
 function createFareMultiplier(int) {
   if (int === 2) 
   {return fareDoubler}
-  else (int ===3)
+  else if (int ===3)
   {return fareTripler}
   else (int === 5)
-  {return fare
+  {return fareQuintupler}
 }
 
 const fareDoubler = function(fare) {
