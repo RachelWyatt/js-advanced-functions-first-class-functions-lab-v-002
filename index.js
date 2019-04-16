@@ -19,6 +19,15 @@ function createFareMultiplier(int) {
   if (int === 2) {return fareDoubler()}
 }
 
-const fareDoubler = function() {
+const fareDoubler = function(fare) {
+  result = fare * 2 
+  return result
+}
+
+const fareTripler = function() {
+  
+}
+
+const fareTripler = function() {
   
 }
