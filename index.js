@@ -28,4 +28,4 @@ const fareTripler = function() {
   result = fare * 3;
   return result
 }
-}
+
