@@ -20,7 +20,8 @@ function createFareMultiplier(int) {
   {return fareDoubler}
   else (int ===3)
   {return fareTripler}
-  else (int === )
+  else (int === 5)
+  {return fare
 }
 
 const fareDoubler = function(fare) {
