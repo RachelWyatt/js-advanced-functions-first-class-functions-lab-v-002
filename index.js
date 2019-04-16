@@ -5,3 +5,10 @@ const returnFirstTwoDrivers = function(drivers) {
   first_two.push(drivers[1])
   return first_two
 }
+
+const returnLastTwoDrivers = function(drivers) {
+  let last_two = []
+  last_two.push(drivers[-1])
+  last_two.push(drivers[-2])
+  return last_two
+}
