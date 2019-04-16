@@ -30,6 +30,7 @@ const fareTripler = function(fare) {
 }
 
 const fetchSpecifiedDrivers = function(drivers, funct) {
-  funct(drivers);
+  new_drivers = funct(drivers);
+  return new_drivers
 }
 
