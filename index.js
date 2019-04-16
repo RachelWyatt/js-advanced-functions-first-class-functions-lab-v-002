@@ -20,7 +20,7 @@ function createFareMultiplier(int) {
 }
 
 const fareDoubler = function(fare) {
-  result = fare * 2 
+  result = fare * 2;
   return result
 }
 
